@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>A Basic HTML5 Template</title>
+    <meta name="description" content="UScellular" />
+    <meta name="author" content="UScellular" />
+
+    <meta property="og:title" content="UScellular - WAF" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.uscellular.com" />
+    <meta property="og:description" content="UScellular - WAF" />
+    <!-- <meta property="og:image" content="image.png"> -->
+
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <link rel="stylesheet" href="css/styles.css?v=1.0" />
+
+    <style>
+      body {
+        max-width: 100vw;
+        max-height: 100vh;
+        height: 100%;
+        margin: 0 auto;
+        padding: 0;
+        color: #000;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #fff;
+      }
+      .bg {
+        z-index: -99;
+        position: fixed;
+      }
+      #bottom-right {
+        bottom: 0;
+        right: 0;
+      }
+      #bottom-left {
+        bottom: 0;
+        left: 0;
+      }
+      #top-right {
+        top: 0;
+        right: 0;
+      }
+      .wrapper {
+        padding: 0;
+        margin: 0;
+      }
+      .pad {
+        height: 126px;
+      }
+      #content {
+        justify-content: center;
+        text-align: center;
+        position: relative;
+      }
+      #logo-container {
+        padding-bottom: 45px;
+        justify-content: center;
+        text-align: center;
+      }
+      #maintenance-graphic-container {
+        padding-bottom: 20px;
+        justify-content: center;
+        text-align: center;
+      }
+      #text-container {
+        justify-content: center;
+        text-align: center;
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+      a {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #322ffd;
+        text-decoration: none;
+      }
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      @media (max-width: 767px) {
+        #bottom-right {
+          display: none;
+        }
+      }
+      @media (min-width: 0px) {
+        #maintenance-large {
+          display: none;
+        }
+        #logo-large {
+          display: none;
+        }
+      }
+      @media (min-width: 321px) {
+        #maintenance-small {
+          display: none;
+        }
+        #logo-small {
+          display: none;
+        }
+        #maintenance-large {
+          display: inline-block;
+        }
+        #logo-large {
+          display: inline-block;
+        }
+      }
+      @media (min-width: 768px) {
+        p {
+          font-size: 22pt;
+        }
+        #text-container {
+          padding-right: 45px;
+          padding-left: 45px;
+        }
+        #logo-container {
+          padding-top: 20px;
+          padding-bottom: 50px;
+        }
+      }
+      @media (min-height: 0px) {
+        #logo-container {
+          padding-bottom: 25px;
+          padding-top: 27px;
+        }
+        #maintenance-graphic-container {
+          padding-bottom: 10px;
+        }
+        p {
+          font-size: 10.5pt;
+        }
+        #logo {
+          padding-right: 5px;
+          padding-left: 5px;
+        }
+        #text-container {
+          padding-right: 20px;
+          padding-left: 20px;
+        }
+      }
+      @media (min-height: 660px) {
+        #logo-container {
+          padding-bottom: 40px;
+          padding-top: 27px;
+        }
+        #maintenance-graphic-container {
+          padding-bottom: 20px;
+        }
+        p {
+          font-size: 12pt;
+        }
+        #text-container {
+          padding-right: 22px;
+          padding-left: 22px;
+        }
+      }
+      @media (min-height: 919px) {
+        p {
+          font-size: 26pt;
+        }
+        #logo {
+          padding-right: 5px;
+          padding-left: 5px;
+        }
+        #text-container {
+          padding-right: 50px;
+          padding-left: 50px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="166.054"
+      height="180"
+      viewBox="0 0 166.054 180"
+      class="bg"
+      id="top-right"
+    >
+      <defs>
+        <style>
+          .a {
+            fill: #0731a1;
+          }
+          .b {
+            fill: #322ffd;
+          }
+          .c {
+            fill: #e81d2c;
+          }
+        </style>
+      </defs>
+      <g transform="translate(0 0)">
+        <path
+          class="a"
+          d="M.724.091A179.335,179.335,0,0,1,113.289,52.071l.724.724.031.03A183.4,183.4,0,0,1,121.711.03H0C.241.06.483.06.724.091Z"
+        />
+        <path
+          class="b"
+          d="M165.874.03V172.7a181.577,181.577,0,0,0-34.322-98.467A180.468,180.468,0,0,0,113.41,52.947,180.658,180.658,0,0,1,121.2,0h44.676Z"
+        />
+        <path
+          class="c"
+          d="M166.054,180c-.06-.06-.12-.121-.181-.181A179.928,179.928,0,0,1,113.41,52.977a180.468,180.468,0,0,1,18.142,21.281A181.387,181.387,0,0,1,165.873,172.7C165.994,175.14,166.054,177.585,166.054,180Z"
+        />
+      </g>
+    </svg>
+    <div class="pad"></div>
+    <div class="wrapper">
+      <div id="content">
+        <div id="logo-container">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="250"
+            viewBox="0 0 129.425 24.815"
+          >
+            <defs>
+              <style>
+                .usc-logo-blue-color {
+                  fill: #0731a1 !important;
+                }
+
+                .usc-logo-red-color {
+                  fill: #fc131d !important;
+                }
+              </style>
+            </defs>
+            <path
+              class="usc-logo-blue-color"
+              d="M172.179,250.578h0a3.074,3.074,0,0,0-1.524-1.1,3.035,3.035,0,0,0-.941-.151H163.89a3.064,3.064,0,0,0,3.045,2.938h2.929l-2.631,8.1a3.065,3.065,0,0,0,3.735-1.988l1.645-5.061A3.057,3.057,0,0,0,172.179,250.578Z"
+              transform="translate(-162.954 -237.014)"
+            ></path>
+            <path
+              class="usc-logo-blue-color"
+              d="M223.473,284.7l-4.305-3.128a3.052,3.052,0,0,0-4.688,1.523l-1.8,5.539a3.047,3.047,0,0,0,3.735-1.988l.9-2.785.121.087,6.768,4.918a3.046,3.046,0,0,0-.736-4.166Z"
+              transform="translate(-204.609 -264.05)"
+            ></path>
+            <path
+              class="usc-logo-blue-color"
+              d="M268.51,225.86a3.108,3.108,0,0,0-.483-.038,3.016,3.016,0,0,0-1.784.583l-4.305,3.128a3.042,3.042,0,0,0-.672,4.254,3.024,3.024,0,0,0,.672.675l4.712,3.424a3.046,3.046,0,0,0-.736-4.166L263.544,232l.12-.088,6.769-4.917A3.03,3.03,0,0,0,268.51,225.86Z"
+              transform="translate(-245.591 -216.951)"
+            ></path>
+            <path
+              class="usc-logo-blue-color"
+              d="M235.148,174.023a3.052,3.052,0,0,0,4.688,1.523l4.712-3.423a3.047,3.047,0,0,0-4.19-.587l-2.37,1.722-2.631-8.1a3.047,3.047,0,0,0-1.854,3.8Z"
+              transform="translate(-222.259 -165.158)"
+            ></path>
+            <path
+              class="usc-logo-blue-color"
+              d="M160.534,186.5h5.322a3.052,3.052,0,0,0,2.9-3.988l-1.8-5.539a3.064,3.064,0,0,0-1.854,3.8l.905,2.786H157.49A3.063,3.063,0,0,0,160.534,186.5Z"
+              transform="translate(-157.49 -175.247)"
+            ></path>
+            <g transform="translate(53.085 3.887)">
+              <path
+                class="usc-logo-blue-color"
+                d="M987.819,236.436l-.066.107-.221-2.885h-2.673v13.114h2.893l0-7.2a4.943,4.943,0,0,1,2.6-2.9,4.148,4.148,0,0,1,2.934-.067v-2.948C991.118,233.252,989.177,234.239,987.819,236.436Z"
+                transform="translate(-916.949 -227.448)"
+              ></path>
+              <rect
+                class="usc-logo-blue-color"
+                width="2.894"
+                height="19.325"
+                transform="translate(26.111)"
+              ></rect>
+              <rect
+                class="usc-logo-blue-color"
+                width="2.894"
+                height="19.325"
+                transform="translate(30.968)"
+              ></rect>
+              <rect
+                class="usc-logo-blue-color"
+                width="2.894"
+                height="19.325"
+                transform="translate(49.064)"
+              ></rect>
+              <path
+                class="usc-logo-blue-color"
+                d="M890.493,231.475a12.887,12.887,0,0,0-5.3.982v2.356a11.813,11.813,0,0,1,4.5-.988c2.8,0,4.235,1.308,4.258,3.887v.082l-.066-.049a7.23,7.23,0,0,0-4.3-1.25,6.442,6.442,0,0,0-3.941,1.191,3.972,3.972,0,0,0-1.582,3.244c0,2.572,2.026,4.369,4.927,4.369a5.856,5.856,0,0,0,5.13-2.6l.067-.11.172,2.4h2.483v-6.722a7.02,7.02,0,0,0-1.738-5.124A6.222,6.222,0,0,0,890.493,231.475Zm3.4,8.3a4.64,4.64,0,0,1-4.127,3.159c-1.7,0-2.836-.88-2.836-2.189,0-1.382,1.2-2.24,3.12-2.24a6.353,6.353,0,0,1,3.829,1.225l.023.018Z"
+                transform="translate(-830.895 -225.664)"
+              ></path>
+              <path
+                class="usc-logo-blue-color"
+                d="M768.562,245.124c-1.691,0-2.784-1.245-2.784-3.172v-7.747h-2.894v8.084c0,3.245,1.843,5.341,4.694,5.341a6.505,6.505,0,0,0,4.654-1.889l.066-.073.08,1.651h2.533V234.205h-2.868v8.9l-.008.011A4.651,4.651,0,0,1,768.562,245.124Z"
+                transform="translate(-727.436 -227.995)"
+              ></path>
+              <path
+                class="usc-logo-blue-color"
+                d="M608.651,231.48a6.444,6.444,0,0,0-4.848,1.92,7.034,7.034,0,0,0-1.761,4.932,6.9,6.9,0,0,0,2.015,5.175,7.058,7.058,0,0,0,4.9,1.8,8.628,8.628,0,0,0,4.691-1.374l-1.125-2.047a8.139,8.139,0,0,1-3.57.914,3.76,3.76,0,0,1-3.978-3.214l-.01-.049h9.627a7.382,7.382,0,0,0,.047-.813,8.286,8.286,0,0,0-1.579-5.332A5.5,5.5,0,0,0,608.651,231.48Zm-3.8,6.039,0-.045a3.59,3.59,0,0,1,3.793-3.556c1.942,0,3.106,1.263,3.275,3.557l0,.044Z"
+                transform="translate(-590.115 -225.668)"
+              ></path>
+              <path
+                class="usc-logo-blue-color"
+                d="M527.909,242.8a4.471,4.471,0,0,1-3.2-7.658,4.63,4.63,0,0,1,3.2-1.221,6.219,6.219,0,0,1,3.217.913l1.187-1.995a7.727,7.727,0,0,0-4.4-1.356c-3.577,0-7.426,2.163-7.426,6.912,0,3.329,2.324,6.912,7.426,6.912a7.724,7.724,0,0,0,4.43-1.374l-1.209-2.049A6.659,6.659,0,0,1,527.909,242.8Z"
+                transform="translate(-520.487 -225.668)"
+              ></path>
+            </g>
+            <g transform="translate(28.159 9.699)">
+              <path
+                class="usc-logo-red-color"
+                d="M355.718,245.124c-1.691,0-2.784-1.245-2.784-3.172v-7.747h-2.894v8.084c0,3.245,1.842,5.341,4.694,5.341a6.5,6.5,0,0,0,4.653-1.889l.067-.073.081,1.651h2.533V234.205H359.2v8.9l-.008.011A4.65,4.65,0,0,1,355.718,245.124Z"
+                transform="translate(-350.041 -233.807)"
+              ></path>
+              <path
+                class="usc-logo-red-color"
+                d="M446.007,235.351c0-.733.453-1.546,2.647-1.546a8.152,8.152,0,0,1,4.072,1v-2.462a9.979,9.979,0,0,0-4.107-.863c-3.426,0-5.48,1.659-5.48,3.871,0,1.325.659,2.636,3.063,3.521,2.69.99,4.488,1.112,4.488,2.561,0,1.132-1.126,1.51-2.343,1.475a10.255,10.255,0,0,1-4.991-1.475c0,.24,0,2.776,0,2.776a10.9,10.9,0,0,0,4.685,1.094c3.539,0,5.505-1.659,5.505-3.871s-1.274-3.308-4.28-3.983S446.007,236.083,446.007,235.351Z"
+                transform="translate(-429.525 -231.48)"
+              ></path>
+            </g>
+            <g transform="translate(126.151 21.656)">
+              <path
+                class="usc-logo-blue-color"
+                d="M1020.118,313.5v-.259h1.324v.259h-.508v1.294h-.308V313.5Zm2.031-.259.4,1.112.4-1.112h.441v1.553h-.285V313.54l-.43,1.253h-.248l-.434-1.253v1.253h-.285V313.24Z"
+                transform="translate(-1020.118 -313.24)"
+              ></path>
+            </g>
+          </svg>
+        </div>
+        <div id="text-container">
+          <p>Please complete the following security check to proceed</p>
+          <h2>::CAPTCHA_BOX::</h2>
+          <p>
+            <!-- If you need immediate assistance please call customer service at
+            <a href="tel:888-944-9400"><b>888-944-9400.</b></a> -->
+          </p>
+        </div>
+      </div>
+    </div>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="194.1"
+      height="179.85"
+      viewBox="0 0 194.1 179.85"
+      class="bg"
+      id="bottom-left"
+    >
+      <defs>
+        <style>
+          .i {
+            fill: #322ffd;
+          }
+          .j {
+            fill: #fc131d;
+          }
+          .k {
+            fill: #0731a1;
+          }
+          .l {
+            fill: #0b024f;
+          }
+        </style>
+      </defs>
+      <g transform="translate(0.5)">
+        <path
+          class="i"
+          d="M2.45,22.95c0,.3.15.6.15.9.15.45.15,1.05.3,1.5a185.631,185.631,0,0,0,21.6,59.7c2.25,3.75,4.5,7.8,7.05,11.55H.05V0a175.366,175.366,0,0,0,2.4,21.75A3.228,3.228,0,0,0,2.45,22.95Z"
+          transform="translate(-0.1)"
+        />
+        <path
+          class="j"
+          d="M28.85,100.65c.9-1.2,1.8-2.55,2.7-3.75v-.15a188.24,188.24,0,0,0,154.65,83.1H194V180H-.1V131.7A189.5,189.5,0,0,0,28.85,100.65Z"
+          transform="translate(-0.4 -0.3)"
+        />
+        <path
+          class="k"
+          d="M38.3,96.45a188.94,188.94,0,0,1,155.4,83.4h-7.5A188.658,188.658,0,0,1,31.7,96.45h6.6Z"
+          transform="translate(-0.55)"
+        />
+        <path
+          class="l"
+          d="M28.55,100.2a181.819,181.819,0,0,1-26.4,29.25,6.524,6.524,0,0,1-1.05.9c-.3.3-.75.6-1.05.9V96.45h31.2C30.35,97.8,29.45,99,28.55,100.2Z"
+        />
+      </g>
+    </svg>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="153.064"
+      height="120"
+      viewBox="0 0 153.064 120"
+      class="bg"
+      id="bottom-right"
+    >
+      <defs>
+        <style>
+          .m {
+            fill: #0b024f;
+          }
+          .n {
+            fill: #322ffd;
+          }
+          .o {
+            fill: #fc131d;
+          }
+        </style>
+      </defs>
+      <g transform="translate(0)">
+        <path
+          class="m"
+          d="M119.617,3.574A.469.469,0,0,0,120,3.447c.383-.128.893-.128,1.276-.255a.468.468,0,0,0,.383-.128c.639-.128,1.149-.255,1.788-.383a2.809,2.809,0,0,1,1.021-.128.469.469,0,0,0,.383-.128c.383-.128.766-.128,1.149-.255.255,0,.638-.128.893-.128a.768.768,0,0,0,.511-.128c.255,0,.511-.128.766-.128.383,0,.638-.128,1.021-.128.256,0,.639-.128.894-.128s.511-.128.766-.128.638-.128.894-.128a1.15,1.15,0,0,0,.638-.128c.255,0,.51-.128.766-.128h.383c.255,0,.638-.128.893-.128s.639-.128.894-.128a.955.955,0,0,0,.638-.128h.256c.383,0,.766-.128,1.276-.128h.383a2.174,2.174,0,0,0,.894-.128h.766a3.535,3.535,0,0,0,1.149-.128c.383,0,.893-.128,1.276-.128h.639A3.535,3.535,0,0,0,143.745,0h9.319V30.383A160.7,160.7,0,0,1,119.617,3.574Z"
+        />
+        <path
+          class="n"
+          d="M80.808,120A158.645,158.645,0,0,0,19.915,73.4a158.031,158.031,0,0,1,99.7-69.83,158.258,158.258,0,0,0,33.446,26.808V69.958L152.936,120Z"
+        />
+        <path
+          class="o"
+          d="M80.553,120H0A156.64,156.64,0,0,1,19.787,73.532,159.164,159.164,0,0,1,80.553,120Z"
+        />
+      </g>
+    </svg>
+    <!-- <script></script> -->
+  </body>
+</html>
